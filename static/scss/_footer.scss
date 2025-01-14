@@ -1,0 +1,42 @@
+/* 
+// 17.footer
+*/
+.footer-part {
+    position: relative;
+    background-color: #0a1b47;
+
+    p {
+        font-size: 16px;
+    }
+
+    .footer-icon {
+        i {
+            transition: all 0.4s ease-in-out !important;
+            --bs-icon-link-transform: translate3d(0, -0.325rem, 0);
+            font-size: 20px;
+            &:hover {
+                color: $warning !important;
+                text-decoration: underline;
+            }
+        }
+    }
+    li {
+        margin-bottom: 10px;
+        a {
+            transition: all 0.5s;
+            &:hover {
+                color: $light !important;
+                margin: 5px;
+                i {
+                    color: $light !important;
+                }
+            }
+        }
+    }
+}
+.footer-copyright {
+    background-color: #010d2c;
+    .copy-info {
+        font-size: 16px;
+    }
+}

@@ -1,0 +1,42 @@
+/* 
+// 13.fnq
+*/
+.accordion {
+    .accordion-item {
+        border: none;
+        border-color: rgba(189, 189, 189, 0.301) !important;
+
+        .accordion-button {
+            color: $primary;
+            font-size: 15px;
+            font-weight: 600;
+            text-transform: capitalize;
+            letter-spacing: 1px;
+
+            &:not(.collapsed) {
+                background-color: #e9f2fd;
+                color: $warning;
+                box-shadow: none;
+                padding-bottom: 0;
+
+                &::after {
+                    background-image: url(../images/subtract-fill.png);
+                }
+            }
+            &:focus {
+                box-shadow: none !important;
+            }
+            &::after {
+                background-image: url(../images/add-fill.png);
+                opacity: 0.6;
+            }
+        }
+    }
+    .accordion-body {
+        font-size: 15px;
+    }
+    .accordion-collapse {
+        background-color: #e9f2fd;
+        letter-spacing: 1px;
+    }
+}

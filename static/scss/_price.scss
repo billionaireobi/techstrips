@@ -1,0 +1,35 @@
+/* 
+// 11.price
+*/
+.price-part {
+    .card {
+        transition: all 0.5s ease-in-out;
+        &:hover {
+            transform: translateY(-1rem);
+        }
+        @media (max-width: 991px) {
+            width: 100%;
+        }
+        .card-body {
+            .card-title-1 {
+                .list {
+                    li {
+                        color: $secondary;
+                        margin-top: 4px;
+                    }
+                }
+            }
+        }
+    }
+    .link-part {
+        .btn {
+            width: 100%;
+        }
+    }
+
+    .title-sm {
+        p {
+            font-size: 12px !important;
+        }
+    }
+}

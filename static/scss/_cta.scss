@@ -1,0 +1,18 @@
+/* 
+// 15.cta
+*/
+.cta-part {
+    .cta-title {
+        form {
+            position: relative;
+            .form-control {
+                padding: 10px;
+                box-shadow: none;
+                border: 1px solid $secondary;
+                @media (max-width: 991px) {
+                    width: 60% !important;
+                }
+            }
+        }
+    }
+}

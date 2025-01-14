@@ -1,0 +1,45 @@
+/* 
+// 14.testimonials
+*/
+
+.client-review {
+    position: relative;
+    background-image: url(../images/World-Map.svg);
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    .bg-overlay {
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.904);
+        background-size: cover;
+        background-repeat: no-repeat;
+    }
+    .carousel-inner {
+        img {
+            object-fit: cover;
+            width: 100px;
+            height: 100px;
+            border-radius: 50%;
+        }
+        @media (max-width: 576px) {
+            br {
+                display: none;
+            }
+        }
+    }
+}
+
+// MEDIA
+
+@media (max-width: 576px) {
+    .review {
+        .review-item {
+            padding: 60px 0;
+        }
+    }
+}

@@ -1,0 +1,45 @@
+/* 
+// 16.login page
+*/
+.login-page {
+    background-image: url(../images/bg-img/login-bg.jpg);
+    min-height: 100vh;
+    .card {
+        width: 36%;
+        box-shadow: rgba(27, 36, 92, 0.199) 0px 4px 21px, rgb(48, 44, 44) 0px 4px 21px;
+        @media (max-width: 991px) {
+            width: 100%;
+            padding-left: 0px !important;
+            padding-right: 0px !important;
+        }
+        .form-control {
+            &:focus {
+                box-shadow: none;
+                border-color: $secondary;
+            }
+        }
+        .form-check-input {
+            &:focus {
+                box-shadow: none;
+                border-color: $secondary;
+            }
+        }
+
+        a {
+            color: $primary;
+            i {
+                --bs-icon-link-transform: translate3d(0, -0.195rem, 0);
+                &:hover {
+                    color: $warning !important;
+                }
+            }
+        }
+        p {
+            font-size: 16px !important;
+        }
+    }
+
+    input::placeholder {
+        font-size: 13px !important;
+    }
+}

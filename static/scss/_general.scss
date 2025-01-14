@@ -1,0 +1,76 @@
+/* 
+// 04.general
+*/
+@import "https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;600;700&display=swap";
+
+body {
+    font-family: "Nunito", sans-serif;
+}
+::selection {
+    background-color: $primary;
+    color: $light;
+}
+
+a {
+    text-decoration: none;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+p {
+    font-size: 17px;
+    color: $secondary;
+}
+h1 {
+    font-weight: 600 !important;
+}
+
+h4 {
+    font-size: 30px !important;
+    font-weight: 600;
+}
+h5,
+h6 {
+    font-size: 18px !important;
+    font-weight: 600;
+    text-transform: capitalize;
+}
+.logo {
+    i {
+        font-weight: normal !important;
+    }
+}
+.hero-part {
+    position: relative;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+}
+
+.bg-overlay {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(29, 38, 54, 0.8);
+    background-size: cover;
+    background-repeat: no-repeat;
+    // backdrop-filter: blur(3px);
+}
+
+.title-sm {
+    span {
+        font-size: 14px;
+        color: $warning;
+        font-weight: 400;
+        letter-spacing: 1px;
+    }
+}
+.icon {
+    i {
+        border: 2px dotted $light;
+        opacity: 0.9;
+    }
+}
