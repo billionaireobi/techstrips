@@ -1,0 +1,30 @@
+# Python-specific ignores
+__pycache__/
+*.py[cod]
+*.sqlite3
+
+# Virtual environments
+venv/
+env/
+virt/
+
+# Django-related ignores
+*.log
+*.pot
+*.pyc
+*.pyo
+*.db
+db.sqlite3
+
+# Sensitive files
+.env
+
+# Byte-compiled / optimized / DLL files
+*.py[cod]
+
+# Backup files
+*.swp
+*.bak
+*.tmp
+*.old
+*.orig
