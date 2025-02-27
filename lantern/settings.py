@@ -80,16 +80,16 @@ WSGI_APPLICATION = 'lantern.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'railway',
-        'USER': 'postgres',
-        'PASSWORD': 'CmeMeKaJiCrEToHIDfIviDhpFXSnrxxd',
-        'PORT': '28991',
-        'HOST': 'autorack.proxy.rlwy.net'
-    }
-}
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'railway',
+#         'USER': 'postgres',
+#         'PASSWORD': 'CmeMeKaJiCrEToHIDfIviDhpFXSnrxxd',
+#         'PORT': '28991',
+#         'HOST': 'autorack.proxy.rlwy.net'
+#     }
+# }
 
 
 # Password validation
